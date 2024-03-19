@@ -12,6 +12,85 @@ code {
     monospace;
 }
 
+li{
+  list-style: none;
+}
+
+li>a{
+  color: black;
+  text-decoration: none;
+}
+
+.bg-primary-green{
+  background-color: "#49SE57";
+}
+
+.bg-primary-yellow{
+  background-color: "#F4CE14";
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.text-white{
+  color: white;
+}
+
+.box{
+  padding: 1rem;
+}
+.gap{
+  gap: 1rem;
+}
+
+.between{
+  justify-content: space-between;
+}
+
+.items-center{
+  align-items: center;
+}
+
 .flex{
   display: flex;
 }
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 640px) {
+  .container{
+    max-width: 640px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .box{
+    padding: 2rem;
+  }
+  .gap{
+    gap: 2rem;
+  }
+  .container{
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container{
+    max-width: 1024px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container{
+    max-width: 1280px;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .container{
+    max-width: 1536px;
+  }
+}
+
+
